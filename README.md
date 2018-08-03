@@ -4,7 +4,7 @@ Andpay-Repay-SDK-iOS
 -------------------
 ## 简介
 AndpayRepaySDK文件夹里面是一个framework、一个资源bundle包、包含芝麻信用sdk的文件夹和包含支付宝钱包sdk的文件夹。<br/>
-demo文件夹中是一个简单的手动导入的接入示例，该示例仅供参考。
+demo文件夹中，ManualTest是手动接入示例，PodTest是CocoaPods接入示例，示例仅供参考。
 
 ## 版本要求
 iOS SDK 要求 iOS 8.0 及以上版本
