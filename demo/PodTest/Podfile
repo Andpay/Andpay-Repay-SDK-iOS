@@ -1,0 +1,16 @@
+platform :ios, "8.0"
+
+source ‘https://github.com/CocoaPods/Specs.git’
+
+def import_pods
+ pod 'AndpayRepaySDK','~>1.0.0', :subspecs => ["AndpayRepay"]
+ pod 'AndpayRepaySDK','~>1.0.0', :subspecs => ["ZMCreditSDK"]
+
+end
+
+
+target 'PodTest' do
+    
+    import_pods
+    
+end
