@@ -25,18 +25,12 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "ZMCreditSDK" do |ss|
-    ss.resources = 'AndpayRepaySDK/ZMCreditSDK/H5Service.bundle','AndpayRepaySDK/ZMCreditSDK/Poseidon.bundle'
-    ss.ios.vendored_frameworks = 'AndpayRepaySDK/ZMCreditSDK/ZMCreditSDK.framework'
-    ss.frameworks = "MobileCoreServices", "CFNetwork", "MessageUI", "EventKit", "AssetsLibrary", "CoreMotion", "SystemConfiguration", "CoreTelephony"
-    ss.libraries = "z"
+    ss.resources = 'AndpayRepaySDK/ZMCreditSDK/H5Service.bundle','AndpayRepaySDK/ZMCreditSDK/Poseidon.bundle','AndpayRepaySDK/AlipaySDK/AlipaySDK.bundle'
+    ss.ios.vendored_frameworks = 'AndpayRepaySDK/ZMCreditSDK/ZMCreditSDK.framework','AndpayRepaySDK/AlipaySDK/AlipaySDK.framework'
+    ss.frameworks = "MobileCoreServices", "CFNetwork", "MessageUI", "EventKit", "AssetsLibrary", "CoreMotion", "SystemConfiguration", "CoreTelephony", "UIKit", "QuartzCore", "CoreText", "CoreGraphics", "Foundation"
+    ss.libraries = "z", "c++"
   end
 
-  s.subspec "AlipaySDK" do |sss|
-    sss.resources = 'AndpayRepaySDK/AlipaySDK/AlipaySDK.bundle'
-    sss.ios.vendored_frameworks = 'AndpayRepaySDK/AlipaySDK/AlipaySDK.framework'
-    sss.frameworks = "UIKit", "SystemConfiguration", "QuartzCore", "CoreTelephony", "CoreText", "CoreGraphics", "Foundation", "CoreMotion", "CFNetwork"
-    sss.libraries = "z", "c++"
-  end
 
 
 

@@ -20,8 +20,6 @@ pod 'AndpayRepaySDK/AndpayRepay','~> 1.0.0'
 #项目中引入过芝麻信用SDK则不需要这行
 pod 'AndpayRepaySDK/ZMCreditSDK','~>1.0.0'
 
-#项目中引入过支付宝钱包SDK则不需要这行
-pod 'AndpayRepaySDK/AlipaySDK','~>1.0.0'
 ```
 
 2. 运行 `pod update`
