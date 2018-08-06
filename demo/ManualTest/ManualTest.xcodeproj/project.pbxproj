@@ -12,7 +12,6 @@
 		6D938F92210A00D10068D8A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F91210A00D10068D8A4 /* CoreGraphics.framework */; };
 		6D938F94210A00D60068D8A4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F93210A00D60068D8A4 /* CoreText.framework */; };
 		6D938F96210A00DF0068D8A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F95210A00DF0068D8A4 /* QuartzCore.framework */; };
-		6D938F98210A00E30068D8A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F97210A00E20068D8A4 /* Security.framework */; };
 		6D938F9C210A00FC0068D8A4 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D938F9A210A00FC0068D8A4 /* AlipaySDK.bundle */; };
 		6D938F9D210A00FC0068D8A4 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F9B210A00FC0068D8A4 /* AlipaySDK.framework */; };
 		6D938F9F210A01030068D8A4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D938F9E210A01030068D8A4 /* libc++.tbd */; };
@@ -45,7 +44,6 @@
 		6D938F91210A00D10068D8A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6D938F93210A00D60068D8A4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		6D938F95210A00DF0068D8A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6D938F97210A00E20068D8A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6D938F9A210A00FC0068D8A4 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		6D938F9B210A00FC0068D8A4 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		6D938F9E210A01030068D8A4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -82,7 +80,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D938F9F210A01030068D8A4 /* libc++.tbd in Frameworks */,
-				6D938F98210A00E30068D8A4 /* Security.framework in Frameworks */,
 				6D938F96210A00DF0068D8A4 /* QuartzCore.framework in Frameworks */,
 				6D938F9D210A00FC0068D8A4 /* AlipaySDK.framework in Frameworks */,
 				6D938F94210A00D60068D8A4 /* CoreText.framework in Frameworks */,
@@ -167,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				6D938F9E210A01030068D8A4 /* libc++.tbd */,
-				6D938F97210A00E20068D8A4 /* Security.framework */,
 				6D938F95210A00DF0068D8A4 /* QuartzCore.framework */,
 				6D938F93210A00D60068D8A4 /* CoreText.framework */,
 				6D938F91210A00D10068D8A4 /* CoreGraphics.framework */,
