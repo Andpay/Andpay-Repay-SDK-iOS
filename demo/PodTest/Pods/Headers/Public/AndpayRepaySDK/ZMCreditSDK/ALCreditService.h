@@ -1,1 +1,0 @@
-../../../../AndpayRepaySDK/AndpayRepaySDK/ZMCreditSDK/ZMCreditSDK.framework/Versions/A/Headers/ALCreditService.h

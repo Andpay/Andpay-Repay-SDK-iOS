@@ -1,6 +1,0 @@
-framework module AndpayRepaySDK {
-  umbrella header "AndpayRepaySDK.h"
-
-  export *
-  module * { export * }
-}

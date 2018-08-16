@@ -1,9 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AndpayRepaySDK/AndpayRepaySDK" "${PODS_ROOT}/AndpayRepaySDK/AndpayRepaySDK/ZMCreditSDK" "${PODS_ROOT}/AndpayRepaySDK/AndpayRepaySDK/AlipaySDK"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AndpayRepaySDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AndpayRepaySDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"xml2" -l"z" -framework "AlipaySDK" -framework "AndpayRepaySDK" -framework "AssetsLibrary" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "EventKit" -framework "Foundation" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit" -framework "ZMCreditSDK"
-PODS_BUILD_DIR = $BUILD_DIR
-PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
-PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
-PODS_ROOT = ${SRCROOT}/Pods

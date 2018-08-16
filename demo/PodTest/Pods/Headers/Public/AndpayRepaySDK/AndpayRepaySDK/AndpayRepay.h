@@ -1,1 +1,0 @@
-../../../../AndpayRepaySDK/AndpayRepaySDK/AndpayRepaySDK.framework/Headers/AndpayRepay.h
