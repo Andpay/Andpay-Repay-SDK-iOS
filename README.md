@@ -15,10 +15,10 @@ iOS SDK 要求 iOS 8.0 及以上版本
 
 ```
 #必有
-pod 'AndpayRepaySDK','~>1.0.0', :subspecs => ["AndpayRepay"]
+pod 'AndpayRepaySDK','~>1.0.1', :subspecs => ["AndpayRepay"]
 
 #项目中引入过芝麻信用SDK则不需要这行
-pod 'AndpayRepaySDK','~>1.0.0', :subspecs => ["ZMCreditSDK"]
+pod 'AndpayRepaySDK','~>1.0.1', :subspecs => ["ZMCreditSDK"]
 
 ```
 
